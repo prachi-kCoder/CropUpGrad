@@ -9,8 +9,7 @@ Empower your farming with smarter decisions and sustainable practices using Crop
 
 
 ![Crop_predictor_img](https://github.com/user-attachments/assets/a7d21656-bcee-446b-b206-3f49e59fc09e)
-![Crop_predictor_img2](https://github.com/user-attachments/assets/81323ea1-4da9-4b58-a6b5-696cffcbc767)
-
+![Crop_predictor_image](https://github.com/user-attachments/assets/13f272bb-8e4f-4bbe-99f3-1d7790baf60e)
 
 
 ## Project Setup
