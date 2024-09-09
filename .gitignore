@@ -1,0 +1,15 @@
+# Node modules
+client/node_modules/
+
+# Python virtual environment
+server/improenv/
+
+# Python cache files
+*.pyc
+__pycache__/
+
+
+
+# Other system files
+.DS_Store
+Thumbs.db

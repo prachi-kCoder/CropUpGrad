@@ -1,0 +1,110 @@
+/* App.css */
+
+/* Form Container Styling */
+.form-container {
+  background-color: #f9f9f9;
+  padding: 30px;  /* Increased padding for more spacing */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;  /* Restrict the form width */
+  margin: 20px auto;  /* Center the form on the page */
+}
+
+/* Form Control Styling */
+.form-control {
+  margin-bottom: 15px;  /* Space between form fields */
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  padding: 10px;  /* Added padding for better appearance */
+  font-size: 14px;  /* Font size for readability */
+}
+
+/* Label Styling */
+.form-label {
+  color: #333;  /* Darker label color */
+  font-weight: bold;  /* Make the labels bold */
+  display: block;
+  margin-bottom: 5px;  /* Margin for separation from the input */
+}
+
+/* Button Styling */
+button {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  border: none;  /* Removed border for cleaner look */
+  padding: 10px 15px;  /* Padding for larger button */
+  border-radius: 5px;  /* Rounded corners */
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.btn-icon {
+  margin-right: 5px;
+}
+
+/* Results Section Styling */
+.results {
+  background-color: #ffffff;
+  color: #333;  /* Darker font color for better contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;  /* Restrict the width of results */
+  margin: 20px auto;  /* Center the results on the page */
+  text-align: center;  /* Center-align text in results */
+}
+
+/* Styling for text and icons inside results */
+.result-icon {
+  margin-right: 10px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.alert h4 {
+  margin-bottom: 10px;
+  color: #333;  /* Darker heading color */
+}
+
+/* Alert Backgrounds */
+.alert-info {
+  background-color: #e9f5ff;
+  border-color: #b8daff;
+  color: #0c5460;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+}
+
+/* Heading Icon Styling */
+.agri-icon {
+  color: #28a745;
+  font-size: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Custom link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
