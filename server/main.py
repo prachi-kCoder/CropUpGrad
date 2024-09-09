@@ -10,7 +10,10 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://cropupgrad-clientside.onrender.com"],  # You can specify ["http://localhost:3000"] if you want to restrict origins.
+    allow_origins=[
+        "http://localhost:5173",  # Local development URL
+        "https://cropupgrad-clientside.onrender.com"  # Production frontend URL
+    ],  
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
