@@ -35,7 +35,7 @@ function App() {
         e.preventDefault();
         setSubmitted(true);  // Mark as submitted for displaying results
         try {
-            const response = await axios.post('http://localhost:8000/predict_crop', {
+            const response = await axios.post('https://cropupgrad.onrender.com/predict_crop', {
                 Nitrogen: parseFloat(inputData.nitrogen),
                 Phosphorus: parseFloat(inputData.phosphorus),
                 Potassium: parseFloat(inputData.potassium),
