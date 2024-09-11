@@ -68,12 +68,15 @@ async def predict_crop(input_data: CropInput):
     new_input = [[input_data.Nitrogen, input_data.Phosphorus, input_data.Potassium, input_data.Temperature,
                   input_data.Humidity, input_data.pH_Value, input_data.Rainfall]]
     
+    print(f"New input for prediction: {new_input}")
     # Create DMatrix for prediction
     dinput = xgb.DMatrix(new_input, feature_names=features)
 
     # Predict the crop
     predicted_crop = model.predict(dinput)
+    print(f"Raw prediction output: {predicted_crop}")  
     decoded_crop = label_encoder.inverse_transform(predicted_crop.astype(int))[0]
+    print(f"Decoded crop prediction: {decoded_crop}")
 
     # Suggest improvements based on optimal ranges for the predicted crop
     improvements = suggest_improvements(new_input, decoded_crop)
