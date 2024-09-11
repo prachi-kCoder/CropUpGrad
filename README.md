@@ -1,6 +1,7 @@
 
 # CropUpGrad 🌱
 CropUpGrad is an AI-powered tool designed to help farmers achieve better yields through data-driven insights.
+App is live on: https://cropupgrad-clientside.onrender.com/
 
 🌾 Crop Prediction: Analyze soil composition (Nitrogen, Humidity, Potassium, Rainfall) to recommend the best crops.
 📈 Yield Improvement: Get actionable suggestions to enhance crop yield.
